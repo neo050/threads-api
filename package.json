@@ -10,7 +10,15 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/axios": "^0.14.0",
+    "@types/mime-types": "^2.1.1",
+    "@types/mocha": "^10.0.1",
+    "mrmime": "^1.0.1",
     "prettier": "^2.8.0"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "mime-types": "^2.1.35"
+  }
 }
